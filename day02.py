@@ -30,21 +30,21 @@ def append_sum(a):
 print(append_sum([1, 1, 2]))
 
 # solution #2
-def append_sum(a):
+# def append_sum(a):
 
-  sum1 = (a[-1]+a[-2])
-  a.append(sum1)
+#   sum1 = (a[-1]+a[-2])
+#   a.append(sum1)
 
 
-  sum2 = (a[-1]+a[-2])
-  a.append(sum2)
+#   sum2 = (a[-1]+a[-2])
+#   a.append(sum2)
 
-  sum3 = (a[-1]+a[-2])
-  a.append(sum3)
+#   sum3 = (a[-1]+a[-2])
+#   a.append(sum3)
 
-  return a
+#   return a
 
-print(append_sum([1, 1, 2]))
+# print(append_sum([1, 1, 2]))
 
 
 
@@ -66,13 +66,13 @@ def larger_list (lst1, lst2):
 print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
 
 
-def larger_list(lst1, lst2):
-    if len(lst1) >= len(lst2):
-        return lst1[-1]
-    else:
-        return lst2[-1]
+# def larger_list(lst1, lst2):
+#     if len(lst1) >= len(lst2):
+#         return lst1[-1]
+#     else:
+#         return lst2[-1]
     
-print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
+# print(larger_list([4, 10, 2, 5], [-10, 2, 5, 10]))
 
 
 #3
