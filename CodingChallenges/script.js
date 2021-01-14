@@ -22,22 +22,22 @@
 // // and the indexs should be eliminated
 // // else pairOfSocks remains the same 
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    birthYear: 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense: true,
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
 
-    // calcAge: function (birthYear) {
-    //     return 2037 - birthYear;
-    // }
+// calcAge: function (birthYear) {
+//     return 2037 - birthYear;
+// }
 
-    // calcAge: function () {
-    //     console.log(this)
-    //     return 2037 - this.birthYear;
-    // }
+// calcAge: function () {
+//     console.log(this)
+//     return 2037 - this.birthYear;
+// }
 
 //     calcAge: function () {
 //         this.age = 2037 - this.birthYear;
@@ -59,4 +59,31 @@ const jonas = {
 // "Jonas is a 46-year old teacher, and he has a driver's license"
 
 
+// coding challenge 
 
+function calcBMI(mass, height) {
+    const BMI = mass / height ** 2
+    return BMI
+}
+
+const mark = {
+    mass: 78,
+    height: 1.69,
+
+    calcBMI: function () {
+        this.BMI = this.mass / this.height ** 2
+        return this.BMI;
+    }
+}
+
+const john = {
+    mass: 92,
+    height: 1.95,
+
+    calcBMI: function () {
+        this.BMI = this.mass / this.height ** 2
+        return this.BMI;
+    }
+}
+
+console.log(` John's BMI(${john.calcBMI()}) is lower than Mark's(${mark.calcBMI()})`)
